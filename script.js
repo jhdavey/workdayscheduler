@@ -16,6 +16,7 @@ $(document).ready(function () {
       $(this).removeClass('present');
       $(this).removeClass('future');
       $(this).addClass('past');
+      $(this).children('.description').addClass('text-light');
     } else if (blockNum === currentHour) {
       $(this).removeClass('past');
       $(this).removeClass('future');
